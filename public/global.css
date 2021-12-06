@@ -214,7 +214,7 @@ color: white;
   @media (max-width: 1000px) {
 
    .apps{
-       flex-direction: column;
+    grid-template-columns: auto;
    }
 
    .app-item {
@@ -278,7 +278,7 @@ color: white;
       
   }
 
-  fab
+
 
   .social-item:hover {
       color: #00e2ee;
