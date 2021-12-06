@@ -167,7 +167,8 @@ color: white;
 .Project {
     font-family: "Raleway", sans-serif;
     color: #eeeeee;
-  
+    height: fit-content;
+    background-color: #222831;
   }
 
   .collection {

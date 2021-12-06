@@ -6,6 +6,7 @@
     <h3 class="title">-- Projects</h3>
     <h1>Look at my applications.</h1>
   </div>
+
   <div class="apps">
    <div class="app-item">
       <a href="https://blogger-new-1e3ob7lzy-luciankallee-gmailcom.vercel.app/"><img class="app-image " src="blog.png" alt="app" /></a>
@@ -24,6 +25,18 @@
       <h3 class="project-name">Weather App</h3>
       <h4 class="project-description">Nodejs, Ejs</h4>
     </div>
+
+    <div class="app-item">
+      <a href="https://crypto-dynamic-website.vercel.app/"><img class="app-image" src="crypto.png" alt="app" /></a>
+    <h3 class="project-name">Crypto website</h3>
+    <h4 class="project-description">Nodejs, Ejs</h4>
+  </div>
+
+  <div class="app-item">
+    <a href="https://sky-mock-website.vercel.app/"><img class="app-image" src="sky.png" alt="app" /></a>
+  <h3 class="project-name">Dynamic Website</h3>
+  <h4 class="project-description">Nodejs, Ejs</h4>
+  </div>
   </div>
 </div>
 

@@ -15,10 +15,10 @@
     <nav>
       <ul>
        <li><img id="logo" src="code.png" alt="dawn"/></li>
-       <li class="link"><Link style={"color: white; text-decoration: none;"}  to="/">Home</Link></li>
-       <li class="link"><Link style={"color: white; text-decoration: none;"}  to="About">About</Link></li>
-       <li class="link"><Link style={"color: white; text-decoration: none;"}  to="Portfolio">Projects</Link></li>
-       <li class="link"><Link style={"color: white; text-decoration: none;"}  to="Contact">Contact</Link></li>
+       <Link style={"color: white; text-decoration: none;"}  to="/"><li class="link">Home</li></Link>
+       <Link style={"color: white; text-decoration: none;"}  to="About"><li class="link">About</li></Link>
+       <Link style={"color: white; text-decoration: none;"}  to="Portfolio"><li class="link">Projects</li></Link>
+       <Link style={"color: white; text-decoration: none;"}  to="Contact"><li class="link">Contact</li></Link>
       </ul>
     </nav>
 	<Route path="/" component="{Home}"></Route>
