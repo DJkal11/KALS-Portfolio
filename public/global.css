@@ -19,6 +19,11 @@ body {
   
 }
 
+.app-item{
+  width: 22rem;
+  height: 22rem;
+}
+
 .main{
 	height: 100vh;
 	background-color: #222831;
@@ -221,6 +226,7 @@ color: white;
    .app-item {
        margin-top: 20px;
        margin-bottom: 20px;
+      
    }
 
    .Project {
