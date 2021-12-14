@@ -29,13 +29,13 @@
     <div class="app-item">
       <a href="https://crypto-dynamic-website.vercel.app/"><img class="app-image" src="crypto.png" alt="app" /></a>
     <h3 class="project-name">Crypto website</h3>
-    <h4 class="project-description">Nodejs, Ejs</h4>
+    <h4 class="project-description">Reactjs, Tailwind</h4>
   </div>
 
   <div class="app-item">
     <a href="https://sky-mock-website.vercel.app/"><img class="app-image" src="sky.png" alt="app" /></a>
   <h3 class="project-name">Dynamic Website</h3>
-  <h4 class="project-description">Nodejs, Ejs</h4>
+  <h4 class="project-description">Reactjs, Tailwind</h4>
   </div>
   </div>
 </div>

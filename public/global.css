@@ -185,7 +185,7 @@ color: white;
   .apps{
      display: grid;
      grid-template-columns: auto auto auto;
-     gap: 80px;
+     gap: 20px;
      
   }
 
@@ -332,4 +332,28 @@ color: white;
     opacity: 1;
     transform: none;
   }
+}
+
+@media (max-width: 375px) {
+ ul {
+   row-gap: 100px;
+   margin-left: -40px;
+ }
+
+ .link{
+   padding-left: 15px;
+   
+ }
+
+ li{
+  font-size: 0.8rem;
+ }
+
+ .app-item{
+  width: 18rem;
+  height: 18rem;
+}
+
+ 
+
 }
