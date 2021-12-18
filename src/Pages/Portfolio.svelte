@@ -9,7 +9,7 @@
 
   <div class="apps">
    <div class="app-item">
-      <a href="https://blogger-new-1e3ob7lzy-luciankallee-gmailcom.vercel.app/"><img class="app-image " src="blog.png" alt="app" /></a>
+      <a href="https://blogger-new.vercel.app/"><img class="app-image " src="blog.png" alt="app" /></a>
       <h3 class="project-name">Blog Website</h3>
       <h4 class="project-description">Reactjs, Firebase</h4>
     </div>
