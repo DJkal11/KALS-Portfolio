@@ -14,17 +14,17 @@
 	  <Router>
     <nav>
       <ul>
-       <li><img id="logo" src="code.png" alt="dawn"/></li>
+       <li><img id="logo" src="code.png" alt="dawn" to="/"></li>
        <li class="link"><Link style={"color: white; text-decoration: none;"}  to="/">Home</Link></li>
-       <li class="link"><Link style={"color: white; text-decoration: none;"}  to="About">About</Link></li>
-       <li class="link"><Link style={"color: white; text-decoration: none;"}  to="Portfolio">Projects</Link></li>
-       <li class="link"><Link style={"color: white; text-decoration: none;"}  to="Contact">Contact</Link></li>
+       <li class="link"><Link style={"color: white; text-decoration: none;"}  to="about">About</Link></li>
+       <li class="link"><Link style={"color: white; text-decoration: none;"}  to="portfolio">Projects</Link></li>
+       <li class="link"><Link style={"color: white; text-decoration: none;"}  to="contact">Contact</Link></li>
       </ul>
     </nav>
 	<Route path="/" component="{Home}"></Route>
-    <Route path="About" component="{About}" />
-	<Route path="Portfolio" component="{Portfolio}" />
-  <Route path="Contact" component="{Contact}" />
+    <Route path="about" component="{About}" />
+	<Route path="portfolio" component="{Portfolio}" />
+  <Route path="contact" component="{Contact}" />
 </Router>
 
 	

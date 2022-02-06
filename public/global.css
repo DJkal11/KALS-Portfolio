@@ -195,12 +195,12 @@ color: white;
      background-color: white;
      border-radius: 7%;
      color: black;
-     
+     height: 22em;
   }
 
   .app-image{
       max-width: 100%;
-      height: 70%;
+      height: 55%;
       border-radius: 5%;
   }
   .app-image:hover {
@@ -214,6 +214,8 @@ color: white;
   .project-description {
       font-weight: 100;
       color: grey;
+      padding-left: 1em;
+      padding-right: 1em;
   }
 
 

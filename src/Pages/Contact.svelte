@@ -5,11 +5,11 @@
 
 <div class="Contact-me transition">
   <div class="Contact">
-    <h3 class="title">-- Contact Me</h3>
+    <h3 class="title">Contact Me</h3>
     <h1>
-      Lets work together.
+      Let's build something great together!
     </h1>
-    <a href="mailto:luciankallee@gmail.com" class="contact-btn">Let's Talk</a>
+    <a href="mailto:luciankallee@gmail.com" class="contact-btn">Shoot me an email</a>
     <h3 class="social-item"><a class="social-link" href="https://www.linkedin.com/in/lucian-kallee-24893519a"><i class="fab fa-linkedin"></i> </a></h3>
     <h3 class="social-item"><a class="social-link" href="https://github.com/DJkal11"><i class="fab fa-github-square"></i></a></h3>
   </div>
