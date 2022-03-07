@@ -19,3 +19,60 @@
  
 </div>
 
+<style>
+  .Contact-me {
+    font-family: "Raleway", sans-serif;
+    color: #eeeeee;
+    display: inline-flex;
+  }
+
+  .Contact {
+    padding: 90px;
+    margin-top: 20px;
+    flex: 1;
+  }
+
+  .coding {
+    flex: 1;
+  }
+
+  .title {
+    color: #00adb5;
+    margin: 0px;
+  }
+
+  .contact-img{
+      max-width: 100%;
+      
+  }
+
+  .contact-btn{
+      padding: 10px 20px 10px 20px;
+      background-color: #00adb5;
+      color: white;
+      border: 1px solid #00adb5;
+      border-radius: 7%;
+      text-decoration: none;
+  }
+  .contact-btn:hover {
+    background-color: #00e2ee;
+  }
+
+  .social-item {
+      margin-top: 50px;
+      
+  }
+
+  .social-item:hover {
+      color: #00e2ee;
+  }
+
+  .social-link{
+    text-decoration: none;
+      color: white;
+  }
+  .social-link:hover {
+    color: #00e2ee;
+  }
+</style>
+
