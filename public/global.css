@@ -112,6 +112,14 @@ color: white;
      padding: 0px;
    }
 
+   .space-home{
+     text-align: center;
+   }
+
+   .home-img {
+    max-width: 70%;
+    
+   }
   }
 
 
@@ -123,23 +131,29 @@ color: white;
     color: #eeeeee;
     display: inline-flex;
     justify-content: space-between;
+    
+  }
+
+  .about-description{
+    font-size: 2rem;
   }
 
   .About {
     padding: 90px;
+    padding-bottom: 0px;
     margin-top: 30px;
     flex: 1;
   }
 
   .coding {
-    margin-right: 120px;
+    
     flex: 1;
     
   }
 
   .about-img{
     
-    max-width: 120%;
+    max-width: 100%;
     
   }
 
@@ -147,8 +161,17 @@ color: white;
     font-size: 5rem;
   }
 
+  .grids{
+    display: flex;
+    
+  }
+  
 
-  @media (max-width: 1000px){
+  
+  
+
+
+  @media (max-width: 1100px){
     .About-me{
       flex-direction: column;
       background-color: #222831;
@@ -159,10 +182,13 @@ color: white;
      margin-top: 20px;
     }
 
+    .coding{
+      text-align: center;
+    }
+
     .about-img{
-    
-    max-width: 100%;
-    
+    max-width: 40%;
+    padding: 10px;
   }
 
   }
@@ -180,17 +206,19 @@ color: white;
     padding: 90px;
     padding-top: 20px;
     padding-bottom: 20px;
+  
+   
   }
 
   .apps{
      display: grid;
      grid-template-columns: auto auto auto;
      gap: 20px;
-     
   }
 
   .app-item{
      margin: 20px;
+     margin-right: 0px;
      text-align: center;
      background-color: white;
      border-radius: 7%;
@@ -219,13 +247,14 @@ color: white;
   }
 
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1100px) {
 
    .apps{
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
    }
 
    .app-item {
+     margin: auto;
        margin-top: 20px;
        margin-bottom: 20px;
       
@@ -239,6 +268,7 @@ color: white;
    .collection {
        padding: 50px;
        padding-top: 0px;
+       padding-right: 0px;
    }
   }
 /* Portfolio */
@@ -252,6 +282,8 @@ color: white;
 
   .Contact {
     padding: 90px;
+    padding-right: 0px;
+    padding-bottom: 0px;
     margin-top: 20px;
     flex: 1;
   }
@@ -266,9 +298,10 @@ color: white;
   }
 
   .contact-img{
-     
-      width: 35em;
-      
+    max-width: 100%;
+    margin: auto auto;
+     padding: 0px; 
+     padding-top: 0px;
   }
 
   .contact-btn{
@@ -337,7 +370,7 @@ color: white;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 427px) {
  ul {
    row-gap: 100px;
    margin-left: -40px;
@@ -357,6 +390,72 @@ color: white;
   height: 18rem;
 }
 
+.title{
+  padding: 10px;
+}
  
+.about-description{
+ font-size: 1.5rem;
+ padding: 10px;
+}
 
+.fab {
+  font-size: 3rem;
+}
+
+.grids {
+  display: grid;
+     grid-template-columns: auto auto auto;
+     gap: 1px;
+}
+
+.coding{
+  text-align: center;
+}
+
+.about-img{
+  max-width: 80%;
+  margin: auto;
+ 
+}
+
+.contact-img{
+  max-width: 80%;
+  margin: auto auto;
+   padding: 20px; 
+   padding-top: 0px;
+}
+
+.space-home{
+  text-align: center;
+}
+
+.home-description{
+  padding: 10px;
+}
+
+.home-img{
+  max-width: 80%;
+  margin: auto;
+}
+
+
+.app-item{
+  margin: auto;
+  height: fit-content;
+  margin-bottom: 20px;
+}
+
+}
+
+@media (min-width: 428px) and (max-width: 800px) {
+  .apps{
+    grid-template-columns: auto auto;
+   }
+
+   .app-item {
+     width: fit-content;
+   }
+
+   
 }

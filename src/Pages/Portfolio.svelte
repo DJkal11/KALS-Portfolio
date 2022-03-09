@@ -4,7 +4,7 @@
 <div class="Project transition">
   <div class="collection">
     <h3 class="title">Projects</h3>
-    <h1>These are a few applications I created using my favourite frameworks like React and Node.</h1>
+    <h1 class="home-description">These are a few applications I created using my favourite frameworks like React and Node.</h1>
   </div>
 
   <div class="apps">
